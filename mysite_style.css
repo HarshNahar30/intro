@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    color: #40514E;
+    text-align: center;
+    /* but this wont work if we change the width of the element */
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    width: 30%; 
+    /* 16px = 100% = 1em */
+    /* % and em used for dynamically setting the font size */
+    font-size: 5.625em;   
+    /* so for the allignment to work we need to change the margin */
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font: weight 500px;
+    /* padding-bottom: 15px; */
+
+}
+
+a{
+    color: #0e1d1e;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+hr{
+    border: dotted #EAF6F6 10px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.title{
+    font-weight: normal;
+}
+
+
+.top{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px ;
+}
+
+.middle{
+    margin: 100px 0;
+}
+
+.bottom{
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+p{
+    line-height: 2;
+}
+
+.mountains{
+    height: 500px;
+    width: 500px;
+}
+
+/* .profile{
+    height: 200px;
+    width: 200px;
+} */
+
+.topcloud{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottomcloud{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.contact{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.dsa{
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 40px;
+}
+.cric{
+    width: 25%;
+    float: right;
+    margin-left : 40px;
+}
+
+.profile{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pf{
+    width: 15%;
+}
+
+.btn {
+    background: #11ccd4;
+    background-image: -webkit-linear-gradient(top, #11ccd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11ccd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11ccd4, #11999e);
+    background-image: -o-linear-gradient(top, #11ccd4, #11999e);
+    background-image: linear-gradient(to bottom, #11ccd4, #11999e);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .lastthing{
+    color: #EAF6F6;
+    font-size: 0.75em;
+    padding: 20px 0;
+  }
